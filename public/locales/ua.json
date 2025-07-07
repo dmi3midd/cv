@@ -1,0 +1,23 @@
+{
+    "name": "Дмитро Ставицький",
+    "location": "Україна, Київ",
+    "about": {
+        "title": "Про мене",
+        "content": "Українська Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestias facilis corrupti recusandae quidem animi consectetur cum natus tempore? Quae totam quod maiores tempora delectus, eum, ducimus voluptates cupiditate architecto numquam possimus ipsum neque necessitatibus nam laborum nesciunt porro eius?"
+    },
+    "tech-stack": {
+        "title": "Стеки технологій"
+    },
+    "pet-projects": {
+        "title": "Пет проекти",
+        "pw-manager": "Менеджер паролів",
+        "loggers": "Логери",
+        "spotify-api": "Spotify API бібліотека",
+        "music-player": "Музичний плеєр",
+        "doc-analyz": "Аналізатор документів"
+    },
+    "education": {
+        "title": "Освіта",
+        "content": "2 курс. Національний технічний університет України 'Київський політехнічний інститут імені Ігоря Сікорського'. Факультет прикладної математики. Кафедра програмного забезпечення комп'ютерних систем. 121 Інженерія програмного забезпечення. Рівень англійської - B1."
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Dmytro Stavickiy",
+    "location": "Ukraine, Kyiv",
+    "about": {
+        "title": "About",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestias facilis corrupti recusandae quidem animi consectetur cum natus tempore? Quae totam quod maiores tempora delectus, eum, ducimus voluptates cupiditate architecto numquam possimus ipsum neque necessitatibus nam laborum nesciunt porro eius?"
+    },
+    "tech-stack": {
+        "title": "Tech stack"
+    },
+    "pet-projects": {
+        "title": "Pet projects",
+        "pw-manager": "Passwords manager",
+        "loggers": "Loggers",
+        "spotify-api": "Spotify API package",
+        "music-player": "Music player",
+        "doc-analyz": "Documnet analyzator"
+    },
+    "education": {
+        "title": "Освіта",
+        "content": "2nd course. National Technical University of Ukraine 'Igor Sikorsky Kyiv Polytechnic Institut'.\nFaculty of Applied Mathematics. Department of Computer Systems Software.\n121 Software engineering.\nEnglish level - B1 Intermediate."
+    }
+}

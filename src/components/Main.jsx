@@ -1,79 +1,74 @@
+import { useTranslation } from 'react-i18next';
 import List from "./List";
 
 export default function Main() {
+    const { i18n, t } = useTranslation();
     return (
         <main className="mt-[75px]">
             <div>
                 <h2 className="w-[95%] mb-[15px] pb-[15px] border-b-4 text-[#dddde8] text-[35px] ubuntu-medium">
-                    About
+                    {t("about.title")}
                 </h2>
-                <p className="w-[95%] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/20 text-[#dddde8] text-[25px] josefin-sans-medium">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Delectus molestias facilis corrupti recusandae quidem animi consectetur cum natus tempore? 
-                    Quae totam quod maiores tempora delectus, eum, ducimus voluptates cupiditate architecto 
-                    numquam possimus ipsum neque necessitatibus nam laborum nesciunt porro eius?
+                <p className="w-[95%] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15 text-[#dddde8] text-[25px] josefin-sans-medium">
+                    {t("about.content")}
                 </p>
             </div>
             
             <div className="mt-[75px]">
                 <h2 className="w-[95%] mb-[15px] pb-[15px] border-b-4 text-[#dddde8] text-[35px] ubuntu-medium">
-                    Tech stack                    
+                    {t("tech-stack.title")}                   
                 </h2>
-                <div className="w-[95%] p-[25px] pt-[5px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/20">
+                <div className="w-[95%] p-[25px] pt-[5px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15">
                     <List techs={['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express', 'Mongo', 'React', 'TypeScript', 'Tailwind', 'Electron', 'Jest', 'C#']}/>
                 </div>
             </div>
 
             <div className="mt-[75px]">
                 <h2 className="w-[95%] mb-[15px] pb-[15px] border-b-4 text-[#dddde8] text-[35px] ubuntu-medium">
-                    Pet projects                    
+                    {t("pet-projects.title")}                    
                 </h2>
                 
-                <div className="w-[95%] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/20">
+                <div className="w-[95%] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15">
                     <div className="flex items-center">
-                        <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">Passwords manager</h3>
+                        <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">{t("pet-projects.pw-manager")}</h3>
                         <p className="ml-[20px] mr-[20px] text-[#dddde8] text-[30px] ubuntu-light">|</p>
-                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="">link on repo</a>
+                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="https://github.com/dmi3midd/pwmanag">GitHub</a>
                     </div>
                     <List techs={['HTML', 'CSS', 'JavaScript', 'Node.js', 'React', 'Tailwind', 'Electron']}/>
                 </div>
 
-                <div className="w-[95%] mt-[25px] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/20">
+                <div className="w-[95%] mt-[25px] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15">
                     <div className="flex items-center">
-                        <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">Loggers</h3>
+                        <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">{t("pet-projects.loggers")}</h3>
                         <p className="ml-[20px] mr-[20px] text-[#dddde8] text-[30px] ubuntu-light">|</p>
-                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="">Telegram logger repo</a>
-                        <p className="ml-[20px] mr-[20px] text-[#dddde8] text-[30px] ubuntu-light">|</p>
-                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="">File logger repo</a>
-                        <p className="ml-[20px] mr-[20px] text-[#dddde8] text-[30px] ubuntu-light">|</p>
-                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="">File logger in ts repo</a>
+                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="">GitHub</a>
                     </div>
                     <List techs={['JavaScript', 'Node.js', 'TypeScript', 'Telegram API']} />
                 </div>
 
-                <div className="w-[95%] mt-[25px] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/20">
+                <div className="w-[95%] mt-[25px] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15">
                     <div className="flex items-center">
-                        <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">Library for Spotify API</h3>
+                        <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">{t("pet-projects.spotify-api")}</h3>
                         <p className="ml-[20px] mr-[20px] text-[#dddde8] text-[30px] ubuntu-light">|</p>
-                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="">link on repo</a>
+                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="">GitHub</a>
                     </div>
                     <List techs={['TypeScript', 'Node.js', 'Spotify API']} />
                 </div>
 
-                <div className="w-[95%] mt-[25px] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/20">
+                <div className="w-[95%] mt-[25px] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15">
                     <div className="flex items-center">
-                        <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">Music player</h3>
+                        <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">{t("pet-projects.music-player")}</h3>
                         <p className="ml-[20px] mr-[20px] text-[#dddde8] text-[30px] ubuntu-light">|</p>
-                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="">link on repo</a>
+                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="">GitHub</a>
                     </div>
                     <List techs={['HTML', 'CSS', 'TypeScript/JavaScript', 'Node.js', 'React', 'Tailwind', 'Electron', 'Spotify API']}/>
                 </div>
 
-                <div className="w-[95%] mt-[25px] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/20">
+                <div className="w-[95%] mt-[25px] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15">
                     <div className="flex items-center">
-                        <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">Document analyzator</h3>
+                        <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">{t("pet-projects.doc-analyz")}</h3>
                         <p className="ml-[20px] mr-[20px] text-[#dddde8] text-[30px] ubuntu-light">|</p>
-                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="">link on repo</a>
+                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="">GitHub</a>
                     </div>
                     <List techs={['C#']} />
                 </div>
@@ -81,12 +76,10 @@ export default function Main() {
 
             <div className="mt-[75px]">
                 <h2 className="w-[95%] mb-[15px] pb-[15px] border-b-4 text-[#dddde8] text-[35px] ubuntu-medium">
-                    Education
+                    {t("education.title")}
                 </h2>
-                <p className="w-[95%] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/20 text-[#dddde8] text-[25px] josefin-sans-medium">
-                    2nd course. National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”. <br/>
-                    Faculty of Applied Mathematics. Department of Computer Systems Software. <br/>
-                    121 Software engineering. <br/> English level - B1 Intermediate.
+                <p className="w-[95%] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15 text-[#dddde8] text-[25px] josefin-sans-medium">
+                    {t("education.content")}
                 </p>
             </div>
 
