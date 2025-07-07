@@ -5,6 +5,7 @@ export default function Main() {
     const { i18n, t } = useTranslation();
     return (
         <main className="mt-[75px]">
+            {/*About*/}
             <div>
                 <h2 className="w-[95%] mb-[15px] pb-[15px] border-b-4 text-[#dddde8] text-[35px] ubuntu-medium">
                     {t("about.title")}
@@ -13,7 +14,7 @@ export default function Main() {
                     {t("about.content")}
                 </p>
             </div>
-            
+            {/*Tech stack*/}
             <div className="mt-[75px]">
                 <h2 className="w-[95%] mb-[15px] pb-[15px] border-b-4 text-[#dddde8] text-[35px] ubuntu-medium">
                     {t("tech-stack.title")}                   
@@ -22,7 +23,7 @@ export default function Main() {
                     <List techs={['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express', 'Mongo', 'React', 'TypeScript', 'Tailwind', 'Electron', 'Jest', 'C#']}/>
                 </div>
             </div>
-
+            {/*Pet projects*/}
             <div className="mt-[75px]">
                 <h2 className="w-[95%] mb-[15px] pb-[15px] border-b-4 text-[#dddde8] text-[35px] ubuntu-medium">
                     {t("pet-projects.title")}                    
@@ -73,7 +74,7 @@ export default function Main() {
                     <List techs={['C#']} />
                 </div>
             </div>
-
+            {/*Education*/}
             <div className="mt-[75px]">
                 <h2 className="w-[95%] mb-[15px] pb-[15px] border-b-4 text-[#dddde8] text-[35px] ubuntu-medium">
                     {t("education.title")}
