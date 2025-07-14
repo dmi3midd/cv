@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div className="relative h-min-screen w-full flex justify-center">
       <div className="fixed inset-0 -z-10">
-        <img className="w-full h-full object-cover" src="src\assets\Images\bg.jpg" alt="" />
+        <img className="w-full h-full object-cover" src="src\assets\images\bg.jpg" alt="" />
         {/* <LetterGlitch
           glitchSpeed={100}
           outerVignette={false}

@@ -20,7 +20,7 @@ export default function Main() {
                     {t("tech-stack.title")}                   
                 </h2>
                 <div className="w-[95%] p-[25px] pt-[5px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15">
-                    <List techs={['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express', 'Mongo', 'React', 'TypeScript', 'Tailwind', 'Electron', 'Jest', 'C#']}/>
+                    <List techs={['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express', 'Mongo', 'React', 'TypeScript', 'Tailwind', 'Electron', 'Jest', 'React Native', 'C#']}/>
                 </div>
             </div>
             {/*Pet projects*/}
@@ -31,45 +31,45 @@ export default function Main() {
                 
                 <div className="w-[95%] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15">
                     <div className="flex items-center">
-                        <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">{t("pet-projects.pw-manager")}</h3>
+                        <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">{t("pet-projects.mobile-pw-manag")}</h3>
                         <p className="ml-[20px] mr-[20px] text-[#dddde8] text-[30px] ubuntu-light">|</p>
-                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="https://github.com/dmi3midd/pwmanag">GitHub</a>
+                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="">GitHub</a>
                     </div>
-                    <List techs={['HTML', 'CSS', 'JavaScript', 'Node.js', 'React', 'Tailwind', 'Electron']}/>
+                    <List techs={['TypeScript', 'Node.js', 'React Native', 'Tailwind']} />
                 </div>
 
                 <div className="w-[95%] mt-[25px] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15">
                     <div className="flex items-center">
-                        <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">{t("pet-projects.loggers")}</h3>
+                        <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">{t("pet-projects.desktop-pw-manag")}</h3>
                         <p className="ml-[20px] mr-[20px] text-[#dddde8] text-[30px] ubuntu-light">|</p>
-                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="">GitHub</a>
+                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="https://github.com/dmi3midd/pwmanag">GitHub</a>
                     </div>
-                    <List techs={['JavaScript', 'Node.js', 'TypeScript', 'Telegram API']} />
+                    <List techs={['JavaScript', 'Node.js', 'React', 'Tailwind', 'Electron']}/>
+                </div>
+
+                <div className="w-[95%] mt-[25px] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15">
+                    <div className="flex items-center">
+                        <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">{t("pet-projects.logger")}</h3>
+                        <p className="ml-[20px] mr-[20px] text-[#dddde8] text-[30px] ubuntu-light">|</p>
+                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="https://github.com/dmi3midd/filelogger-tslib">GitHub</a>
+                    </div>
+                    <List techs={['TypeScript', 'Node.js', 'Telegram API']} />
                 </div>
 
                 <div className="w-[95%] mt-[25px] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15">
                     <div className="flex items-center">
                         <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">{t("pet-projects.spotify-api")}</h3>
                         <p className="ml-[20px] mr-[20px] text-[#dddde8] text-[30px] ubuntu-light">|</p>
-                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="">GitHub</a>
+                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="https://github.com/dmi3midd/simple-spotify-api">GitHub</a>
                     </div>
                     <List techs={['TypeScript', 'Node.js', 'Spotify API']} />
                 </div>
 
                 <div className="w-[95%] mt-[25px] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15">
                     <div className="flex items-center">
-                        <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">{t("pet-projects.music-player")}</h3>
-                        <p className="ml-[20px] mr-[20px] text-[#dddde8] text-[30px] ubuntu-light">|</p>
-                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="">GitHub</a>
-                    </div>
-                    <List techs={['HTML', 'CSS', 'TypeScript/JavaScript', 'Node.js', 'React', 'Tailwind', 'Electron', 'Spotify API']}/>
-                </div>
-
-                <div className="w-[95%] mt-[25px] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15">
-                    <div className="flex items-center">
                         <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">{t("pet-projects.doc-analyz")}</h3>
                         <p className="ml-[20px] mr-[20px] text-[#dddde8] text-[30px] ubuntu-light">|</p>
-                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="">GitHub</a>
+                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="https://github.com/dmi3midd/Doclysis">GitHub</a>
                     </div>
                     <List techs={['C#']} />
                 </div>

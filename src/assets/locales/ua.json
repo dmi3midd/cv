@@ -10,10 +10,10 @@
     },
     "pet-projects": {
         "title": "Пет проекти",
-        "pw-manager": "Менеджер паролів",
-        "loggers": "Логери",
+        "pw-manager": "Десктоп менеджер паролів",
+        "mobile-pw-manag": "Мобільний менеджер паролів",
+        "logger": "Логер",
         "spotify-api": "Spotify API бібліотека",
-        "music-player": "Музичний плеєр",
         "doc-analyz": "Аналізатор документів"
     },
     "education": {

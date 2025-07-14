@@ -10,10 +10,10 @@
     },
     "pet-projects": {
         "title": "Pet projects",
-        "pw-manager": "Passwords manager",
-        "loggers": "Loggers",
+        "desktop-pw-manag": "Desktop passwords manager",
+        "mobile-pw-manag": "Mobile passwords manager",
+        "logger": "Logger",
         "spotify-api": "Spotify API package",
-        "music-player": "Music player",
         "doc-analyz": "Documnet analyzator"
     },
     "education": {
