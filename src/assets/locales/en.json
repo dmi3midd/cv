@@ -13,6 +13,7 @@
         "desktop-pw-manag": "Desktop passwords manager",
         "mobile-pw-manag": "Mobile passwords manager",
         "logger": "Logger",
+        "auth-api": "Auth REST API",
         "spotify-api": "Spotify API package",
         "doc-analyz": "Documnet analyzator"
     },

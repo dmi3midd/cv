@@ -51,9 +51,18 @@ export default function Main() {
                     <div className="flex items-center">
                         <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">{t("pet-projects.logger")}</h3>
                         <p className="ml-[20px] mr-[20px] text-[#dddde8] text-[30px] ubuntu-light">|</p>
-                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="https://github.com/dmi3midd/filelogger-tslib">GitHub</a>
+                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="https://github.com/dmi3midd/extLogger">GitHub</a>
                     </div>
                     <List techs={['TypeScript', 'Node.js', 'Telegram API']} />
+                </div>
+
+                <div className="w-[95%] mt-[25px] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15">
+                    <div className="flex items-center">
+                        <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">{t("pet-projects.auth-api")}</h3>
+                        <p className="ml-[20px] mr-[20px] text-[#dddde8] text-[30px] ubuntu-light">|</p>
+                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="https://github.com/dmi3midd/auth-rest">GitHub</a>
+                    </div>
+                    <List techs={['JavaScript', 'Node.js', 'Express', 'MongoDB + mongoose', 'JWT']} />
                 </div>
 
                 <div className="w-[95%] mt-[25px] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15">

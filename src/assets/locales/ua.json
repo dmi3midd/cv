@@ -13,6 +13,7 @@
         "pw-manager": "Десктоп менеджер паролів",
         "mobile-pw-manag": "Мобільний менеджер паролів",
         "logger": "Логер",
+        "auth-api": "REST API для авторизації",
         "spotify-api": "Spotify API бібліотека",
         "doc-analyz": "Аналізатор документів"
     },
