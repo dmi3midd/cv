@@ -10,11 +10,12 @@
     },
     "pet-projects": {
         "title": "Пет проекти",
-        "pw-manager": "Десктоп менеджер паролів",
-        "mobile-pw-manag": "Мобільний менеджер паролів",
+        "supchat": "Чат підтримки",
+        "desktop-pw-manag": "Десктоп менеджер паролів",
+        "npm": "Npm-бібліотеки",
         "logger": "Логер",
-        "auth-api": "REST API для авторизації",
         "spotify-api": "Spotify API бібліотека",
+        "vernam": "Бібліотека з шифром Вернама",
         "doc-analyz": "Аналізатор документів"
     },
     "education": {

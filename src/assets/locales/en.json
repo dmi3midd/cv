@@ -10,11 +10,12 @@
     },
     "pet-projects": {
         "title": "Pet projects",
+        "supchat": "Support chat",
         "desktop-pw-manag": "Desktop passwords manager",
-        "mobile-pw-manag": "Mobile passwords manager",
+        "npm": "Npm-packages",
         "logger": "Logger",
-        "auth-api": "Auth REST API",
         "spotify-api": "Spotify API package",
+        "vernam": "Varnam's ciphers package",
         "doc-analyz": "Documnet analyzator"
     },
     "education": {
