@@ -3,20 +3,24 @@
     "location": "Ukraine, Kyiv",
     "about": {
         "title": "About",
-        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestias facilis corrupti recusandae quidem animi consectetur cum natus tempore? Quae totam quod maiores tempora delectus, eum, ducimus voluptates cupiditate architecto numquam possimus ipsum neque necessitatibus nam laborum nesciunt porro eius?"
+        "content": "I moved to Kyiv from the Donetsk region to study. I started getting interested in programming since 8th grade. I studied it more actively in 11th grade and in my first year of university. I was most interested in the MERN stack: Mongo, Express, React, Node.js. Therefore, in the future, I would like to work with these technologies, but I would also like to try something new and complement my hard skills. And while working in a team, I would like to improve my soft skills as well."
+    },
+    "note": {
+        "title": "Note",
+        "content": "I'm currently studying in a blended format (one day per week on campus), so I would like to try combining an internship/job with my studies."
     },
     "tech-stack": {
         "title": "Tech stack"
     },
     "pet-projects": {
         "title": "Pet projects",
+        "status": "Under development",
         "supchat": "Support chat",
         "desktop-pw-manag": "Desktop passwords manager",
         "npm": "Npm-packages",
         "logger": "Logger",
         "spotify-api": "Spotify API package",
-        "vernam": "Varnam's ciphers package",
-        "doc-analyz": "Documnet analyzator"
+        "vernam": "Varnam's ciphers package"
     },
     "education": {
         "title": "Освіта",

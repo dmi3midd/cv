@@ -3,7 +3,11 @@
     "location": "Україна, Київ",
     "about": {
         "title": "Про мене",
-        "content": "Українська Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestias facilis corrupti recusandae quidem animi consectetur cum natus tempore? Quae totam quod maiores tempora delectus, eum, ducimus voluptates cupiditate architecto numquam possimus ipsum neque necessitatibus nam laborum nesciunt porro eius?"
+        "content": "Переїхав в Київ з Донецької області вчитися. З 8 класу почав цікавитися програмуванням. Більш активно почав вчити в 11 класі та на першому курсі. Найбільше зацікавив стек MERN: Mongo, Express, React, Nodejs. Тому в перепективі хотів би в майбутньому працювати з цими технологіями, але так само хотів би пробувати щось нове та доповнювати свої hard-скіли. А працюючи в команді покращувати і soft-скіли."
+    },
+    "note": {
+        "title": "Примітка",
+        "content": "Наразі вчусь на другому курсі в змішаному форматі(один день на тиждень треба їхати на пари), тому хочу спробувати сувміщати стажування/роботу з навчанням"
     },
     "tech-stack": {
         "title": "Стеки технологій"
@@ -11,12 +15,12 @@
     "pet-projects": {
         "title": "Пет проекти",
         "supchat": "Чат підтримки",
+        "status": "В розробці",
         "desktop-pw-manag": "Десктоп менеджер паролів",
         "npm": "Npm-бібліотеки",
         "logger": "Логер",
         "spotify-api": "Spotify API бібліотека",
-        "vernam": "Бібліотека з шифром Вернама",
-        "doc-analyz": "Аналізатор документів"
+        "vernam": "Бібліотека з шифром Вернама"
     },
     "education": {
         "title": "Освіта",

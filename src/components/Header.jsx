@@ -31,10 +31,6 @@ export default function Header() {
                 </li>
 
                 <li className="text-[#8a8a8a] text-[20px] josefin-sans-regular hover:text-[#dddde8] duration-250">
-                    <a href="tel:+380991846006">+380991846006</a>
-                </li>
-
-                <li className="text-[#8a8a8a] text-[20px] josefin-sans-regular hover:text-[#dddde8] duration-250">
                     <a href="mailto:dmi3midd@gmail.com">dmi3midd@gmail.com</a>
                 </li>
 

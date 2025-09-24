@@ -5,6 +5,7 @@ export default function Main() {
     const { i18n, t } = useTranslation();
     return (
         <main className="mt-[75px]">
+
             {/*About*/}
             <div>
                 <h2 className="w-[95%] mb-[15px] pb-[15px] border-b-4 text-[#dddde8] text-[35px] ubuntu-medium">
@@ -14,15 +15,27 @@ export default function Main() {
                     {t("about.content")}
                 </p>
             </div>
+
+            {/*Note*/}
+            <div>
+                <h2 className="w-[95%] mb-[15px] pb-[15px] border-b-4 text-[#dddde8] text-[35px] ubuntu-medium">
+                    {t("note.title")}
+                </h2>
+                <p className="w-[95%] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15 text-[#dddde8] text-[25px] josefin-sans-medium">
+                    {t("note.content")}
+                </p>
+            </div>
+
             {/*Tech stack*/}
             <div className="mt-[75px]">
                 <h2 className="w-[95%] mb-[15px] pb-[15px] border-b-4 text-[#dddde8] text-[35px] ubuntu-medium">
                     {t("tech-stack.title")}                   
                 </h2>
                 <div className="w-[95%] p-[25px] pt-[5px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15">
-                    <List techs={['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express', 'Mongo', 'React', 'TypeScript', 'Tailwind', 'Electron', 'Jest', 'React Native', 'C#']}/>
+                    <List techs={['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express', 'Mongo', 'React', 'TypeScript', 'Tailwind']}/>
                 </div>
             </div>
+
             {/*Pet projects*/}
             <div className="mt-[75px]">
                 <h2 className="w-[95%] mb-[15px] pb-[15px] border-b-4 text-[#dddde8] text-[35px] ubuntu-medium">
@@ -33,8 +46,9 @@ export default function Main() {
                 <div className="w-[95%] mt-[25px] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15">
                     <div className="flex items-center">
                         <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">{t("pet-projects.supchat")}</h3>
+                        <p className='ml-[20px] text-[#4B4B4B] text-[18px] ubuntu-medium'>{t("pet-projects.status")}</p>
                         <p className="ml-[20px] mr-[20px] text-[#dddde8] text-[30px] ubuntu-light">|</p>
-                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="https://github.com/dmi3midd/pwmanag">GitHub</a>
+                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="https://github.com/dmi3midd/Supchatmini">GitHub</a>
                     </div>
                     <List techs={['JavaScript', 'TypeScript', 'Node.js', 'Express', 'WebSockets', 'Mongo + mongoose', 'React', 'Tailwind', 'Zustand', 'Telegram API']}/>
                 </div>
@@ -83,15 +97,8 @@ export default function Main() {
                     </div>
                 </div>
 
-                <div className="w-[95%] mt-[25px] p-[25px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15">
-                    <div className="flex items-center">
-                        <h3 className="text-[#dddde8] text-[30px] ubuntu-medium">{t("pet-projects.doc-analyz")}</h3>
-                        <p className="ml-[20px] mr-[20px] text-[#dddde8] text-[30px] ubuntu-light">|</p>
-                        <a className="text-[#4B4B4B] text-[18px] ubuntu-medium hover:text-[#5F5E5E] duration-200" href="https://github.com/dmi3midd/Doclysis">GitHub</a>
-                    </div>
-                    <List techs={['C#']} />
-                </div>
             </div>
+
             {/*Education*/}
             <div className="mt-[75px]">
                 <h2 className="w-[95%] mb-[15px] pb-[15px] border-b-4 text-[#dddde8] text-[35px] ubuntu-medium">
