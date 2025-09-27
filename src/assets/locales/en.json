@@ -3,14 +3,13 @@
     "location": "Ukraine, Kyiv",
     "about": {
         "title": "About",
-        "content": "I moved to Kyiv from the Donetsk region to study. I started getting interested in programming since 8th grade. I studied it more actively in 11th grade and in my first year of university. I was most interested in the MERN stack: Mongo, Express, React, Node.js. Therefore, in the future, I would like to work with these technologies, but I would also like to try something new and complement my hard skills. And while working in a team, I would like to improve my soft skills as well."
+        "content": "Beginner developer focused on the MERN stack (MongoDB, Express, React, Node.js). Experienced in building small fullstack applications, working with REST APIs, databases, and version control systems (Git). Looking for a job or internship as a Backend, Fullstack, or Frontend Developer, or QA Engineer. Eager to learn new technologies, contribute to a team, and improve both hard and soft skills."
     },
     "tech-stack": {
         "title": "Tech stack"
     },
     "pet-projects": {
         "title": "Pet projects",
-        "status": "Under development",
         "supchat": "Support chat",
         "desktop-pw-manag": "Desktop passwords manager",
         "npm": "Npm-packages",
@@ -20,6 +19,6 @@
     },
     "education": {
         "title": "Education",
-        "content": "2nd course. National Technical University of Ukraine 'Igor Sikorsky Kyiv Polytechnic Institut'.\nFaculty of Applied Mathematics. Department of Computer Systems Software.\n121 Software engineering.\nEnglish level - B1 Intermediate."
+        "content": "National Technical University of Ukraine 'Igor Sikorsky Kyiv Polytechnic Institut'.\nFaculty of Applied Mathematics. Department of Computer Systems Software.\n121 Software engineering.\nEnglish level - B1 Intermediate."
     }
 }
