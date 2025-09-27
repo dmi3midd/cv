@@ -5,10 +5,6 @@
         "title": "About",
         "content": "I moved to Kyiv from the Donetsk region to study. I started getting interested in programming since 8th grade. I studied it more actively in 11th grade and in my first year of university. I was most interested in the MERN stack: Mongo, Express, React, Node.js. Therefore, in the future, I would like to work with these technologies, but I would also like to try something new and complement my hard skills. And while working in a team, I would like to improve my soft skills as well."
     },
-    "note": {
-        "title": "Note",
-        "content": "I'm currently studying in a blended format (one day per week on campus), so I would like to try combining an internship/job with my studies."
-    },
     "tech-stack": {
         "title": "Tech stack"
     },
@@ -23,7 +19,7 @@
         "vernam": "Varnam's ciphers package"
     },
     "education": {
-        "title": "Освіта",
+        "title": "Education",
         "content": "2nd course. National Technical University of Ukraine 'Igor Sikorsky Kyiv Polytechnic Institut'.\nFaculty of Applied Mathematics. Department of Computer Systems Software.\n121 Software engineering.\nEnglish level - B1 Intermediate."
     }
 }
