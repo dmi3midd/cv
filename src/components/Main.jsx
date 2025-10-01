@@ -22,7 +22,7 @@ export default function Main() {
                     {t("tech-stack.title")}
                 </h2>
                 <div className="max-w-[95%] p-[25px] pt-[5px] rounded-[25px] backdrop-blur-[5px] bg-[#4B4B4B]/15">
-                    <List techs={['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express', 'Mongo', 'PostgreSQL', 'React', 'TypeScript', 'Tailwind']} />
+                    <List techs={['Git', 'Linux', 'VS Code', 'HTML', 'CSS', 'JavaScript', 'Node.js', 'Express', 'Mongo', 'PostgreSQL', 'React', 'TypeScript', 'Zustand', 'Tailwind']} />
                 </div>
             </div>
 
